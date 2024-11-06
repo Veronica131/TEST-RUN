@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     margin: 0;
@@ -51,11 +52,46 @@ a {
 
 nav ul {
     display: flex;
+}
 
+nav ul li:hover {
+    transform: rotate(15deg);
 }
 
 nav ul li {
     padding: 1rem;
     font-size: 20px;
     margin: 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+main {
+    background-color: black;
+    background-image: url(./Veronica_An_Image_depicting_Synced_Solution_f0dbde4c-b175-4bb4-9302-f1efec88228d.png);
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    padding: 0.5px;
+    margin: 0 5rem;
+}
+
+main p {
+    color: whitesmoke;
+    font-family: 'PlayFair Display', sans-serif;
+    font-weight: 400;
+    margin: 0 5px;
+    padding: 15px 15px;
 }
